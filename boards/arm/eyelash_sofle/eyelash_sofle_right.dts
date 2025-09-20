@@ -37,3 +37,9 @@
         multiplex-ratio = <31>;
     };
 };
+
+/ {
+    chosen {
+        zephyr_display = &oled_right;
+    };
+};
