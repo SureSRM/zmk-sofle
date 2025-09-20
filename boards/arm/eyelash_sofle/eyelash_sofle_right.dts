@@ -40,6 +40,6 @@
 
 / {
     chosen {
-        zephyr_display = &oled_right;
+        zephy,display = &oled_right;
     };
 };
